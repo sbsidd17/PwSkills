@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #E9EFFB;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    color: #363636;
+}
+
+/* Styling Header Start */
+nav{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 500;
+    color: #363636;
+    transition: 500ms;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.search-box{
+    display: flex;
+    align-content: center;
+    gap: 30px;
+}
+
+.search-box input{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button{
+    border: 1px solid white;
+    background-color: #0A8A86;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+button:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+/* Styling Header End */
+
+/* Styling Main Section Start */
+main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20vh;
+    gap: 20vw;
+}
+
+.main-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.main-left h1 span{
+    font-weight: 900;
+    color: #0A8A86;
+    background-color: #DBDBDA;
+    font-size: 2.5rem;
+}
+
+.main-left p span{
+    font-weight: 900;
+    color: #0A8A86;
+    font-size: 1.2rem;
+}
+
+.main-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-right img{
+    width: 250px;
+}
+
+.main-right button{
+    width: 50%;
+    align-self: center;
+}
+/* Styling Main Section End */
+
+/* Styling Footer */
+
+footer{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 12vw;
+}
+
+.footer-right ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-right ul li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.footer-right ul li a{
+    text-decoration: none;
+    color: #363636;
+}
+
+.footer-right ul li a:hover{
+    font-size: 1.7rem;
+    color: black;
+    transition: 500ms;
+}
